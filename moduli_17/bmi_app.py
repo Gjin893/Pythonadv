@@ -100,8 +100,8 @@ class BMIApp:
          else:
             person = Child(name, age, weight, height)
 
-      self.add_person(person)
-      st.success(f"{name} has been added")
+         self.add_person(person)
+         st.success(f"{name} has been added")
 
     def print_result(self):
 
